@@ -38,4 +38,30 @@ console.log(typeof myFunction);
 console.log(typeof heros);
 
 
+//===================
+//Stack(primitive)==>ki copy m change hota hai original chamge nahi hota
 
+//that stored in STACK
+let myName="aryan22"
+ 
+let myname2=myName
+
+myname2="sarathe"
+
+console.log(myName);
+console.log(myname2);
+
+//Heap (non-primitive)==>reference m original change hota hai  
+
+//that stored in HEAP
+
+let user={
+    email:"sarathe",
+    age:23,
+}
+
+let user2=user
+user.email="aryan"
+
+console.log(user);
+console.log(user2);
