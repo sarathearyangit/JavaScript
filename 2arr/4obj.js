@@ -52,3 +52,22 @@ console.log(Object.values(newUser));
 console.log(Object.entries(newUser));
 
 console.log(newUser.hasOwnProperty('place'));
+
+const course={
+    instructor:"hitesh",
+    subject:"DBMS",
+    price:"99"
+}
+const {instructor}=course
+console.log(instructor);
+
+// {       JSON API  OBJECT
+//     instructor:"hitesh",
+//     subject:"DBMS",
+//     price:"99"
+// } 
+
+// [   ARRAY ki form m
+//     {},
+//     {}
+// ]
